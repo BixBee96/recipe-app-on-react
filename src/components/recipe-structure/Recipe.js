@@ -14,7 +14,7 @@ const Recipe = ({ id, title, calories, img, ingredients, url }) => {
             <li>{ingredient}</li>
           ))}
         </ul>
-        <a href={url} target="_blank">
+        <a href={url} rel="noreferrer" target="_blank">
           Link to Recipe
         </a>
       </div>
